@@ -1,20 +1,19 @@
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
-const giphyKey = process.env.GIPHY_KEY;
+const newsApiKey = process.env.news_api_key
 
+//een functie die van thenewsapi een aantal artikelen ophaalt met de categorie tech en de taal nederlands
 const fetchNews = async () => {
 
     try {
-
-
         const requestOptions = {
             method: 'GET'
         };
 
         const params = {
-             api_token: 'C4cSEq99q5KARDl7kkGoyG0iknSF92IvWEJhfgLm',
-           // api_token: //'7JHX8w17My3gy3tFrDI0jGfKPnQTjvm72nG5UOaW',
+            api_token: newsApiKey,
+
             language: 'nl',
             categories: 'tech',
             limit: '3'
@@ -32,9 +31,7 @@ const fetchNews = async () => {
         const newsData = await response.json();
 
         return {
-            // title: newsData.data[1].title,
-            // description: newsData.data[1].description,
-            // source: newsData.data[1].source,
+
             news: newsData
         }
 
