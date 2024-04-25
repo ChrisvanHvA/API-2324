@@ -1,6 +1,6 @@
-### Webvision
+# Webvision
 
-#### Introductie
+### Introductie
 Webvision is een app waarmee je een tv ervaring op het internet kan hebben! doormiddel van Gifjes en nieuwsartikelen verkleed als teletekst. Deze applicatie maakt gebruik van verschillende externe API's om een ​​interactieve televisie-ervaring te bieden.
 
 #### Functionaliteiten
@@ -16,7 +16,7 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
    - Door het ophalen van een nieuws API zijn er verschillende artikelen te lezen
    -de nieuws API geeft ook veel opties om te bepalen wat je wilt laten zien
 
-#### Technologieën
+## Technologieën
 - **Frontend:**
   - HTML, CSS en JavaScript worden gebruikt met Express templating.
 
@@ -29,7 +29,7 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
   - TheNewsApi: Voor het ophalen van nieuwsartikelen en hun inhoud.
   - Gamepad API voor een speciale functionaliteit
 
-#### Installatie
+## Installatie
 1. Clone de GitHub-repository van het project naar uw lokale machine.
 2. Installeer de vereiste Node.js-modules met behulp van `npm install`.
 3. Maak een bestand `.env` aan en configureer de benodigde API-sleutels.
@@ -40,11 +40,6 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
 2. Blader door de beschikbare kanalen en selecteer het gewenste kanaal.
 3. Gebruik de afstandsbediening of knoppen op het scherm om door GIF's te bladeren of teletekstartikelen te lezen.
 
-#### Toekomstige Verbeteringen
-- Implementatie van gebruikersprofielen en favorietenfunctionaliteit.
-- Integratie van meer kanalen en inhoudstypen, zoals films, muziekvideo's, enz.
-- Verbeterde gebruikersinterface en visuele ervaring.
-- Ondersteuning voor spraakgestuurde bediening.
 
 #### Licentie
 Dit project wordt vrijgegeven onder de MIT-licentie. Zie het `LICENSE`-bestand voor meer informatie.
