@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.components {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+
+#tv {
+    display: block;
+    background-color: rgb(46, 46, 46);
+    width: 90vw;
+    height: 45vw;
+    max-width: 30em;
+    max-height: 15em;
+    border: 0.4em solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
+    border-radius: 0.2em;
+
+
+}
+
+#television {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#tv img {
+    min-width: 100%;
+    height: 100%;
+    max-width: 30em;
+    max-height: 15em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.foot {
+    background-color: rgb(23, 23, 23);
+    width: 4vw;
+    height: 2;
+    min-width: 2em;
+    min-height: 1em;
+    border-radius: 0em 0em 0.3em 0.3em;
+    box-shadow: rgba(58, 58, 68, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.base {
+    z-index: -1;
+    margin: -1em;
+    background-color: rgb(44, 44, 44);
+    width: 35vw;
+    max-width: 15em;
+    height: 3vw;
+    min-width: 8em;
+    min-height: 3em;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.447) 0px -50px 36px -28px inset;
+}
+
+img.off {
+    display: none;
+}
+
+#content {
+    margin: 1em;
+    color: white;
+    text-align: center;
+}
+
+.remote {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 12em;
+    height: 45%;
+
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1em;
+    background-color: rgb(92, 92, 92);
+    border: 5px solid rgb(44, 44, 44);
+    border-radius: 0.8em 0.8em 0em 0em;
+    box-shadow: rgba(0, 0, 0, 0.354) 10px 00px 0px 0px inset;
+}
+
+
+
+.remotebuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.volume {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0em 0em 0em;
+}
+
+.volume button {
+    width: 5em;
+}
+
+.channels {
+margin: 0em 0em 1em 0em;
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.remote button {
+    margin: 0.3em;
+    padding: 0.4em;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: 0.1em solid rgb(0, 0, 0);
+    border-radius: 0.2em;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.361) 3px 4px 4px;
+    font-size: 0.6em;
+}
+
+button:hover {
+    background-color: rgb(36, 36, 36);
+    transform: scale(1.01);
+
+    transition: 0.2s;
+
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(0, 0, 0, 0.114) 1px 1px 1px;
+    transition: 0.2s;
+}
+
+#teletekst {
+    Font-family: 'Consolas', 'monaco', monospace;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+#teletekst.off {
+    display: none;
+}
+
+#teleLogo {
+    Font-family: 'Consolas', 'monaco', monospace;
+    color: yellow;
+    background-color: blue;
+    width: 100%;
+    padding: 0.1em;
+    font-size: 3.5vw;
+
+}
+
+#teleTitle {
+    Font-family: 'Consolas', 'monaco', monospace;
+    color: rgb(0, 255, 242);
+    font-weight: bold;
+    font-size: 2.8vw;
+    padding-bottom: 0.5em;
+}
+
+#teleContent {
+    Font-family: 'Consolas', 'monaco', monospace;
+    color: rgb(0, 255, 242);
+    max-height: 80%;
+    overflow: hidden;
+    font-size: 2.5vw;
+}
+#channelsubmit {
+    width: 100%;
+    margin: 0em;
+}
+@media (min-width: 700px) {
+    ul.components {
+        justify-content: space-between;
+        padding: 2em;
+    }
+
+    .remote {
+        left: 10em;
+    }
+    #teleLogo {
+        font-size: 1.2em;
+    }
+    #teleTitle { 
+        font-size: 1em;
+    }
+
+    #teleContent {
+        font-size: 0.9em;
+     }
+}
+hr {
+    width: 100%;
+    border: none;
+    background-color: yellow;
+    height: 0.5em;
+    margin: 0.3em 0em 0.3em 0em;
+}
+
+.background {
+    position: fixed;
+    height: 0;
+    height: 100%;
+    z-index: -2;
+}
+input[type="text"] {
+   margin-top: 2em;
+    color: yellowgreen;
+    width: 100%;
+    height: 2.4em;
+    background: #000000;
+    border-radius: 0.2em;
+    outline: none;
+    opacity: 0.7;
+    text-align: center;
+ 
+}
+.newsbuttons {
+    display: flex;
+    flex-direction: row;
+    
+}
+.news {
+    width: 5em;
+    margin: 1em;
+}
+.news:nth-of-type(1) {
+    background-color: rgb(186, 35, 35);
+}
+.news:nth-of-type(2) {
+    background-color: rgb(13, 115, 13);
+}
+.news:nth-of-type(3) {
+    background-color: rgb(43, 43, 213);
+}

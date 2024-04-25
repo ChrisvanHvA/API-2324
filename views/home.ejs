@@ -1,0 +1,18 @@
+<main>
+    <img  class="background" src="https://img.freepik.com/free-vector/white-technology-background_23-2148390329.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713139200&semt=ais" alt="background" class="bg">
+    <ul class="components">
+        <li>
+            <%- include('tv', { gifUrl: gif.images.fixed_height.url, teleTitle: news.title, teleDescription: news.description, teleNaam: news.source}) %>
+
+            <!-- log news title as bare html -->
+
+            <%- news.title %>
+
+    
+        </li>
+        <li>
+            <%- include('remote') %>
+        </li>
+        </ul>
+       
+</main>
