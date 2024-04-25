@@ -1,83 +1,50 @@
-# API @cmda-minor-web 2023 - 2024
+### Webvision
 
-Het web is een geweldige plek en de beschikbare technologieën ervan zijn vandaag de dag krachtiger dan ooit tevoren.
-De kracht van het web ligt in het feit dat het een platform is dat voor iedereen beschikbaar is en dat het gebaseerd is
-op open standaarden. De technologieën worden ontworpen en gespecificeerd op basis van consensus en zijn niet in handen
-van één enkele entiteit.
+#### Introductie
+Webvision is een app waarmee je een tv ervaring op het internet kan hebben! doormiddel van Gifjes en nieuwsartikelen verkleed als teletekst. Deze applicatie maakt gebruik van verschillende externe API's om een ​​interactieve televisie-ervaring te bieden.
 
-Desondanks zijn er veel mensen en bedrijven die vinden dat het internet niet voldoet aan hun behoeften. Dit blijkt uit
-de pogingen van grote techbedrijven om hun eigen afgesloten ecosystemen te creëren. Ze streven hiermee naar controle over
-zowel de gebruikerservaring als de gegenereerde data.
+#### Functionaliteiten
+1. **Afstandsbediening:**
+   - Gebruikers kunnen door verschillende kanalen "zappen" met behulp van een afstandsbediening (of door de geheime manier).
+   - Met de afstandsbediening kan je switchen tussen tv en teletekst, maar je kan ook zelf nog prompts invullen.
+   
+2. **Het web doorzoeken:**
+   - Door de input fields kan je alles opzoeken en de je favoriete 'zenders' kijken
+   - Browse vooruit en achteruit door de categorieen
 
-**In dit vier weken durende vak zullen we de kracht van het web ervaren en kijken hoe we (mobiele) web apps kunnen maken die
-net zo aantrekkelijk zijn als native mobiele apps. We beginnen met het maken van een server-side gerenderde applicatie
-waarbij we geleidelijk de gebruikerservaring verbeteren met relevante beschikbare web API's.**
+3. **Teletekstlezing:**
+   - Door het ophalen van een nieuws API zijn er verschillende artikelen te lezen
+   -de nieuws API geeft ook veel opties om te bepalen wat je wilt laten zien
 
-## Doelen
+#### Technologieën
+- **Frontend:**
+  - HTML, CSS en JavaScript worden gebruikt met Express templating.
 
-Na deze cursus zul je:
+  
+- **Backend:**
+  - Node.js wordt gebruikt als backend-framework voor het verwerken van verzoeken en het routen.
+  
+- **API's:**
+  - Giphy API: Voor het ophalen van GIF's op basis van verschillende categorieën.
+  - TheNewsApi: Voor het ophalen van nieuwsartikelen en hun inhoud.
+  - Gamepad API voor een speciale functionaliteit
 
-- In staat zijn om een server-side gerenderde applicatie te maken.
-- In staat zijn om een enerverende gebruikerservaring te creëren.
-- Een breder begrip hebben van het web en zijn mogelijkheden.
+#### Installatie
+1. Clone de GitHub-repository van het project naar uw lokale machine.
+2. Installeer de vereiste Node.js-modules met behulp van `npm install`.
+3. Maak een bestand `.env` aan en configureer de benodigde API-sleutels.
+4. Start de server met behulp van `npm run dev`.
 
-## Opdracht
+#### Gebruik
+1. Open de applicatie in uw webbrowser door naar het adres `http://localhost:<port>` te navigeren (standaardport is 3000).
+2. Blader door de beschikbare kanalen en selecteer het gewenste kanaal.
+3. Gebruik de afstandsbediening of knoppen op het scherm om door GIF's te bladeren of teletekstartikelen te lezen.
 
-In dit vak zullen we een van de meest voorkomende app-concepten van vandaag gebruiken en ontdekken dat we deze kunnen
-maken met moderne webtechnologie.
+#### Toekomstige Verbeteringen
+- Implementatie van gebruikersprofielen en favorietenfunctionaliteit.
+- Integratie van meer kanalen en inhoudstypen, zoals films, muziekvideo's, enz.
+- Verbeterde gebruikersinterface en visuele ervaring.
+- Ondersteuning voor spraakgestuurde bediening.
 
-Voorbeelden:
-
-- Maak je eigen streamingplatform (Netflix/Spotify).
-- Maak je eigen doom-scroll-app (Instagram/TikTok).
-- Maak je eigen chatapplicatie (WhatsApp/Signal).
-- Een andere app die je zelf leuk vindt...
-
-Voorbeeld content API's die je kan gebruiken:
-
-- [MovieDB API](https://developer.themoviedb.org/reference/intro/getting-started)
-- [Rijksmuseum API](https://data.rijksmuseum.nl/object-metadata/api/)
-- [Spotify API](https://developer.spotify.com/documentation/web-api)
-
-Voorbeelden van Web API's die je kan gebruiken:
-
-- [Page Transition API voor animaties tusse npagina's](https://developer.mozilla.org/en-US/docs/Web/API/Page_Transitions_API)
-- [Web Animations API voor complexe animaties](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
-- [Service Worker API voor installable web apps](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
-- [Web Push API voor push notifications](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
-- [Server sent events voor realtime functionaliteit](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
-- [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
-- [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- [Web Share API voor sharen van content binnen de context van de gebruiker](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share)
-- ...
-
-De lijst is eindeloos, laat je vooral inspireren op de overzichtspagina van [MDN](https://developer.mozilla.org/en-US/docs/Web/API).
-
-## Beoordeling
-
-Je zal beoordeeld worden op basis van je code, creativiteit en je gedocumenteerde proces. Om het vak te halen zal je aan
-de 3 criteria hieronder moeten voldoen. Een hoger cijfer kan je halen door verder te gaan dan de basis.
-
-| Tekortkomingen | Criterium                                                                                                                                                                                                                                 | Verbeteringen |
-|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|
-|                | *Project* - Je app werkt en is online beschikbaar. Daarnaast heb je je concept, technologieen, gebruikte Web API's en proces duidelijk gedocumenteerd in je `README.md`.                                                                  |               |
-|                | *Functionaliteit* - Je hebt minstens een overzicht en een detailpagina. Hoe meer dynamischer je functionaliteit.hoe beter.                                                                                                                |               |
-|                | *Enhancements* - Je laat zien dat je begrijpt hoe het web werkt door meerdere Web API's te gebruiken om een aantrekkelijke gebruikerservaring neer te zetten. Je gebruikt je eigen creativiteit om iets unieks neer te zetten. |               |
-
-## Planning
-
-| Planning                   | Maandag             | Dinsdag               | Vrijdag                |
-|----------------------------|---------------------|-----------------------|------------------------|
-| Week 1 - Kickoff & concept | Pasen               | Introductie en uitleg | Feedback gesprekken    |
-| Week 2 - The baseline      | College + workshops | Workshops             | Feedback gesprekken    |
-| Week 3 - Enhance           | College + workshops | Workshops             | Feedback gesprekken    |
-| Week 4 - Enhance & wrap up | Individuele vragen  | Individuele vragen    | Beoordelingsgesprekken |
-
-## Resources
-
-- Om serverside te kunnen renderen maak ik gebruik van [TinyHttp](https://github.com/tinyhttp), maar je kan ook kiezen voor [Express](https://expressjs.com/).
-- Voor templating maak ik gebruik van [LiquidJS](https://liquidjs.com/), maar je kan ook kiezen voor [EJS](https://ejs.co/).
-- Voor build tooling(CSS en JS) maak ik gebruik van [Vite](https://vitejs.dev/).
-
-Voel je vrij om je eigen technolgieën te kiezen, zolang je maar kan uitleggen waarom je deze hebt gekozen en zolang
-je geen gebruik maakt van een framework zoals React, Vue, Svelte, Angular, etc. 
+#### Licentie
+Dit project wordt vrijgegeven onder de MIT-licentie. Zie het `LICENSE`-bestand voor meer informatie.
