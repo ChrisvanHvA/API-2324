@@ -1,7 +1,76 @@
-# Webvision
+[![Used languages](https://skillicons.dev/icons?i=js,html,css,js)](https://skillicons.dev)
+<br>
 
-### Introductie
+# Webvision - TV kijken op het internet!
+  <br>
+  <hr>
+  <br>
+### Content
+  - [👋 Introductie 👋](#-debrief-)
+  - [📋 Opdracht 📋](#-debrief-)
+  - [🤔 Idee 🤔](#️-personal-goals-️)
+  - [✏️ Schetsen en wireframes ✏️](#️-wireframes-️)
+  - [✔️ Leerdoelen ✔️](#️-personal-goals-️)
+  - [📱 Eerste protype 📱](#-prototype-v3-)
+  - [📦 Final product 📦](#-final-thoughts-)
+
+  <br>
+  <hr>
+  <br>
+  
+## 👋 Introductie
+
 Webvision is een app waarmee je een tv ervaring op het internet kan hebben! doormiddel van Gifjes en nieuwsartikelen verkleed als teletekst. Deze applicatie maakt gebruik van verschillende externe API's om een ​​interactieve televisie-ervaring te bieden.
+
+  <br>
+
+## 📋 Opdracht
+
+### inleiding
+In de komende vier weken zal ik voor de Minor Web design and Development een web app ontwikkelen die net zo aantrekkelijk is als een native mobiele app, hiervoor zal ik een server-side gerenderde applicatie moeten ontwikkelen die door de hulp van web API's een verbeterde gebruikerservaring moeten geven.
+De doel van de opdracht is dus ook om te laten zien dat een afgesloten ecosysteem zoals de app store of google play, puur bestaan om een monopoly te creeeren en geen extra toegevoegde waarde geven.
+
+### Leerdoelen
+na de 4 weken zal ik geleerd hebben om:
+- Een server-side gerenderde applicatie te ontwikkelen.
+- Een boven gemiddelde gebruikerservaring te leveren binnen deze applicatie.
+- Een bredder begrip hebben van het web en de mogelijkheden die ze bied.
+
+### De opdracht
+Het idee is om een van de meest voorkomende app concepten na te maken en de ervaring te verbeteren.
+een paar voorbeelden zijn:
+- Een doomscroll app.
+- Een streamingplatform zoals netflix of spotify.
+- Een chatapplicatie.
+Hiernaast heb je ook de mogelijkheid om je eigen app te verzinnen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Functionaliteiten
 1. **Afstandsbediening:**
