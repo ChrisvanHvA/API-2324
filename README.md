@@ -2,10 +2,13 @@
 <br>
 
 # Webvision - TV kijken op het internet!
+
   <br>
   <hr>
   <br>
+  
 ### Content
+
   - [👋 Introductie 👋](#-debrief-)
   - [📋 Opdracht 📋](#-debrief-)
   - [🤔 Idee 🤔](#️-personal-goals-️)
