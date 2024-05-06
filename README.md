@@ -39,13 +39,40 @@ na de 4 weken zal ik geleerd hebben om:
 - Een boven gemiddelde gebruikerservaring te leveren binnen deze applicatie.
 - Een bredder begrip hebben van het web en de mogelijkheden die ze bied.
 
-### De opdracht
+### 📋 De opdracht
 Het idee is om een van de meest voorkomende app concepten na te maken en de ervaring te verbeteren.
 een paar voorbeelden zijn:
 - Een doomscroll app.
 - Een streamingplatform zoals netflix of spotify.
 - Een chatapplicatie.
 Hiernaast heb je ook de mogelijkheid om je eigen app te verzinnen.
+
+## 🤔 Idee
+
+### Brainstorming 
+Toen ik voor het eerst de opdracht hoorde, begreep ik het nog niet perfect, mijn plan was eigenlijk altijd al om een single page web app te maken. Mijn eerste ideeen kwamen neer op een miniatuurstadje waarvan alle gebouwen API's zijn die info fetchen of je een leuke activiteit laten doen, daarnaast had ik nog het idee om een Web televisie te maken waar je via API fetches bepaalde content op kan kijken.
+Mijn laatste 3 ideeen waren om een tovenaar te maken die met ChatGPT werkt en vragen of spreuken kon beantwoorden, alleen kostte deze volgens bronnen geld. mijn een na laatste plan was een digitale platenverzameling die met spotify API de covers en artiesten zou ophalen.
+Tot slot wou ik een kleine web OS maken waar je API's als apps laat zien, alleen was dit idee iets te ambiteus.
+
+![Schetsen voor app](https://github.com/ChrisvanHvA/API-2324/assets/90341211/261d8a46-f574-468e-b482-6ad97e626ec5)
+<br>
+
+## E-village 
+
+![evillage tekening](https://github.com/ChrisvanHvA/API-2324/assets/90341211/8e6234af-9592-442f-8973-4164da35ddea)
+
+Het idee voor de village zou best simpel zijn, mmaar ook kansen geven voor een modulaire opbouw, als ik een interessante API zou vinden zou ik hem aan de stad kunnen toevoegen, na een beetje nadenken leek het me toch leuker om een tafel vol met objecten te maken die info uit API's ophaalt.
+
+![bureau schetsen](https://github.com/ChrisvanHvA/API-2324/assets/90341211/30467937-db49-4dc9-967f-5970dae13a47)
+
+Dit idee kwam best overeen met de E-village, alleen zou het meer een bureau zijn waar je kon togglen welke objecten je op de tafel wou hebben.
+Ook dit idee had uiteindelijk verloren tegen een idee die me toch leuker leek, Webvision.
+
+## Webvision, een televisie die werkt met het interent.
+![webvision foto](https://github.com/ChrisvanHvA/API-2324/assets/90341211/0879d0a0-5a30-4c8c-b5f3-36738c1adf03)
+
+Uiteindeljik leek het leukste idee toch om een televisie te maken die je met een afstandsbediening kan besturen, zoals API calls en een kleine browsing functie.
+De eerste ideeen waren om er 3 API's in te stoppen die Gifs ophaalt, teletekst nieuwsartikelen laat zien en met de spotify API een soort dummy muziekspeler laat zien, uiteindelijk besloot ik de spotify API er uit te houden en mijn focus te zetten op het verbeteren van de user experience met de andere API's.
 
 
 
