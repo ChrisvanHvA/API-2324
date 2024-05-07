@@ -182,6 +182,8 @@ app.get('/change_show/:type/:channel', async (req, res) => {
 
 app.use(express.static('public'))
 //geeft in de terminal een linkje
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", function () {
+  // ...
+
   console.log(`Server running on http://localhost:${port}`)
 })
