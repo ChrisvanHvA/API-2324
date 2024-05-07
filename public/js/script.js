@@ -25,18 +25,33 @@ if (typeof window !== 'undefined') {
         console.log("mtv");
       } else if (gamepads[0].buttons[0].pressed) {
         console.log("nickelodeon");
+        
       } else if (gamepads[0].buttons[2].pressed) {
         console.log("netflix");
       } else if (gamepads[0].buttons[3].pressed) {
         console.log("teletext");
         teleKnop();
+        var element = document.getElementById("power");
+        element.classList.add("animate");
+        setTimeout(function () {
+          element.classList.remove("animate");
+        }, 200);
       } else if (gamepads[0].buttons[4].pressed) {
         console.log("naarlinks");
         backChannel();
-
+        var element = document.getElementById("back");
+        element.classList.add("animate");
+        setTimeout(function () {
+          element.classList.remove("animate");
+        }, 200);
       } else if (gamepads[0].buttons[5].pressed) {
         console.log("naarrechts");
         frontChannel();
+        var element = document.getElementById("front");
+        element.classList.add("animate");
+        setTimeout(function () {
+          element.classList.remove("animate");
+        }, 200);
       }
     }
     //zorgen dat dit elke 0,6sec gechecked wordt
@@ -48,6 +63,7 @@ if (typeof window !== 'undefined') {
 channelPlus.addEventListener("click", () => {
   frontChannel();
 });
+
 function frontChannel() {
   //zoekt eerst de actieve channel, als er geen actieve channel is, is de default channel netflix
   let activeChannel = document.querySelector(".channel.active");
@@ -167,7 +183,7 @@ function teleKnop() {
 //deze eventlistener zorgt ervoor dat als je op de submit knop drukt, een gif wordt opgehaald op basis van wat je getypt hebt.
 document.getElementById("channelForm").addEventListener("submit", function (event) {
   event.preventDefault();
-  console.log("submidwadawt");
+  console.log("submitting");
   const selectedChannel = document.getElementById("customChannel").value;
   document.getElementById("channelForm").classList.add(selectedChannel);
 

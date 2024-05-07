@@ -29,7 +29,7 @@ app.get('/', async (req, res) => {
   req.session.news = newsData.news.data;
 
   console.log(newsData.news.data[0])
-//zorgt dat er altijd een fallback is als er geen selected channel gevonden kan worden
+  //zorgt dat er altijd een fallback is als er geen selected channel gevonden kan worden
   let selectedChannel = "netflix";
   req.session.activeChannelIndex = req.session.activeChannelIndex || 0;
   // Checked of er wel een sessie is 
@@ -145,7 +145,7 @@ app.get('/new_gif/:channel', async (req, res) => {
   }
 
 })
-//
+//de giphy api haalt max 50 gifs op, maar om het wat veiliger te maken limiteer ik het naar 30
 app.get('/change_show/:type/:channel', async (req, res) => {
   const type = req.params.type;
   const selectedChannel = req.params.channel;
@@ -166,7 +166,7 @@ app.get('/change_show/:type/:channel', async (req, res) => {
     newGif = req.session[selectedChannel][newIndex];
     req.session.activeChannelIndex = newIndex;
 
-    
+
   } else {
     let newIndex = req.session.activeChannelIndex == 0 ? 30 : req.session.activeChannelIndex - 1;
     console.info("previous gif index: ", newIndex);
