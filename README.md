@@ -125,8 +125,25 @@ Ook dit idee had uiteindelijk verloren tegen een idee die me toch leuker leek, W
 Uiteindeljik leek het leukste idee toch om een televisie te maken die je met een afstandsbediening kan besturen, zoals API calls en een kleine browsing functie.
 De eerste ideeen waren om er 3 API's in te stoppen die Gifs ophaalt, teletekst nieuwsartikelen laat zien en met de spotify API een soort dummy muziekspeler laat zien, uiteindelijk besloot ik de spotify API er uit te houden en mijn focus te zetten op het verbeteren van de user experience met de andere API's.
 
+## Werkprocess
+Toen mijn idee vast stond op het maken van een internet televisie was ik nog eerst gaan rondsnuffelen voor passende API's.
+Uiteindelijk was de Giphy API het aantrekkelijkst. ik maakte een NodeJS applicatie met express templating en begon api calls te maken.
+<br>
+![eerste image](https://github.com/ChrisvanHvA/API-2324/assets/90341211/d273364d-8308-4a5d-a646-aa46eb7c9967)
+
+De vorming klopte al vrij goed, maar ik wou graag nog wat extra functies toevoegen.
+NA wat verder te onderzoeken kwam ik er achter dat er meerdere manieren waren om informatie van nieuws websites te halen zoals een RSS feed, toch leek het me slimmer om een echte API te gebruiken, dus ben ik gegaan voor TheNews API, die geeft de gebruiker ook veel opties met filteren.
+<br>
+
+## Final product 📦
+![eindproduct](https://github.com/ChrisvanHvA/API-2324/assets/90341211/df3983dc-f440-4ade-8f7b-8efa2978d38d)
+
+Het eindproduct heeft nu de optie om teletekst te selecteren, te filteren tussen 3 nieuws artikelen, verschillende kanalen te kiezen en binnen die kanaal te zappen, en tot slot kan je ook je eigen kanaal opzoeken, met error handling ingebouwd.
 
 
+
+## Reflectie
+Heb ik nie :(
 
 #### Licentie
 Dit project wordt vrijgegeven onder de MIT-licentie. Zie het `LICENSE`-bestand voor meer informatie.
