@@ -2,6 +2,7 @@
 <br>
 
 # Webvision - TV kijken op het internet!
+[bekijk de deployment hier!!!](https://api-2324-production.up.railway.app/)
 
   <br>
   <hr>
