@@ -10,12 +10,15 @@
 ### Content
 
   - [👋 Introductie 👋](#-debrief-)
+  - [⚡️ Functies en installatie ⚡️](#-prototype-v3-)
   - [📋 Opdracht 📋](#-debrief-)
   - [🤔 Idee 🤔](#️-personal-goals-️)
-  - [✏️ Schetsen en wireframes ✏️](#️-wireframes-️)
-  - [✔️ Leerdoelen ✔️](#️-personal-goals-️)
-  - [📱 Eerste protype 📱](#-prototype-v3-)
+  -  [✔️ Leerdoelen ✔️](#️-personal-goals-️)
+  - [✏️ Idee + schetsen ✏️](#️-wireframes-️)
+  - [📱 Werkprocess 📱](#-prototype-v3-)
   - [📦 Final product 📦](#-final-thoughts-)
+ 
+  - [📱reflectie 📱](#-prototype-v3-)
 
   <br>
   <hr>
@@ -27,17 +30,65 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
 
   <br>
 
+### Functies en installatie ⚡️
+1. **Afstandsbediening:**
+   - Gebruikers kunnen door verschillende kanalen "zappen" met behulp van een afstandsbediening (of door de geheime manier).
+   - Met de afstandsbediening kan je switchen tussen tv en teletekst, maar je kan ook zelf nog prompts invullen.
+
+2. **Het web doorzoeken:**
+   - Door de input fields kan je alles opzoeken en de je favoriete 'zenders' kijken
+   - Browse vooruit en achteruit door de categorieen
+
+3. **Teletekst:**
+   - Door het ophalen van een nieuws API zijn er verschillende artikelen te lezen
+   -de nieuws API geeft ook veel opties om te bepalen wat je wilt laten zien
+
+## Technologieën
+- **Frontend:**
+  - HTML, CSS en JavaScript worden gebruikt met Express templating.
+
+
+- **Backend:**
+  - Node.js wordt gebruikt als backend-framework voor het verwerken van verzoeken en het routen.
+
+- **API's:**
+  - Giphy API: Voor het ophalen van GIF's op basis van verschillende categorieën.
+  - TheNewsApi: Voor het ophalen van nieuwsartikelen en hun inhoud.
+  - Gamepad API voor een speciale functionaliteit
+
+## Installatie
+1. Clone de GitHub-repository van het project naar uw lokale machine.
+2. Installeer de vereiste Node.js-modules met behulp van `npm install`.
+3. Maak een bestand `.env` aan en configureer de benodigde API-sleutels.
+4. Start de server met behulp van `npm run dev`.
+
+#### Gebruik
+1. Open de applicatie in uw webbrowser door naar het adres `http://localhost:<port>` te navigeren (standaardport is 3000).
+2. Blader door de beschikbare kanalen en selecteer het gewenste kanaal.
+3. Gebruik de afstandsbediening of knoppen op het scherm om door GIF's te bladeren of teletekstartikelen te lezen.
+
+
+<br>
 ## 📋 Opdracht
 
 ### inleiding
 In de komende vier weken zal ik voor de Minor Web design and Development een web app ontwikkelen die net zo aantrekkelijk is als een native mobiele app, hiervoor zal ik een server-side gerenderde applicatie moeten ontwikkelen die door de hulp van web API's een verbeterde gebruikerservaring moeten geven.
 De doel van de opdracht is dus ook om te laten zien dat een afgesloten ecosysteem zoals de app store of google play, puur bestaan om een monopoly te creeeren en geen extra toegevoegde waarde geven.
 
-### Leerdoelen
+### Leerdoelen ✔️
 na de 4 weken zal ik geleerd hebben om:
 - Een server-side gerenderde applicatie te ontwikkelen.
 - Een boven gemiddelde gebruikerservaring te leveren binnen deze applicatie.
-- Een bredder begrip hebben van het web en de mogelijkheden die ze bied.
+- Een breder begrip hebben van het web en de mogelijkheden die ze bied.
+  <br>
+Naast deze verplichting vanuit school, is het ook van belang dat ik voor mijzelf een paar belangrijke leerdoelen maak, zo kan ik ervoor zorgen dat ik niet alleen leer wat het vak geeft, maar ook zelf kritisch kan denken en mijn zwaktepunten kan verbeteren.
+Voor mijzelf wil ik leren om:
+  -Te werken met Express templating en een framework in NodeJS te maken
+  -Dynamisch inladen van Gifs en zorgvuldig met API calls om te gaan.
+  -De mogelijkheden van het web te onderzoeken.
+
+  <br>
+
 
 ### 📋 De opdracht
 Het idee is om een van de meest voorkomende app concepten na te maken en de ervaring te verbeteren.
@@ -75,69 +126,6 @@ Uiteindeljik leek het leukste idee toch om een televisie te maken die je met een
 De eerste ideeen waren om er 3 API's in te stoppen die Gifs ophaalt, teletekst nieuwsartikelen laat zien en met de spotify API een soort dummy muziekspeler laat zien, uiteindelijk besloot ik de spotify API er uit te houden en mijn focus te zetten op het verbeteren van de user experience met de andere API's.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Functionaliteiten
-1. **Afstandsbediening:**
-   - Gebruikers kunnen door verschillende kanalen "zappen" met behulp van een afstandsbediening (of door de geheime manier).
-   - Met de afstandsbediening kan je switchen tussen tv en teletekst, maar je kan ook zelf nog prompts invullen.
-
-2. **Het web doorzoeken:**
-   - Door de input fields kan je alles opzoeken en de je favoriete 'zenders' kijken
-   - Browse vooruit en achteruit door de categorieen
-
-3. **Teletekstlezing:**
-   - Door het ophalen van een nieuws API zijn er verschillende artikelen te lezen
-   -de nieuws API geeft ook veel opties om te bepalen wat je wilt laten zien
-
-## Technologieën
-- **Frontend:**
-  - HTML, CSS en JavaScript worden gebruikt met Express templating.
-
-
-- **Backend:**
-  - Node.js wordt gebruikt als backend-framework voor het verwerken van verzoeken en het routen.
-
-- **API's:**
-  - Giphy API: Voor het ophalen van GIF's op basis van verschillende categorieën.
-  - TheNewsApi: Voor het ophalen van nieuwsartikelen en hun inhoud.
-  - Gamepad API voor een speciale functionaliteit
-
-## Installatie
-1. Clone de GitHub-repository van het project naar uw lokale machine.
-2. Installeer de vereiste Node.js-modules met behulp van `npm install`.
-3. Maak een bestand `.env` aan en configureer de benodigde API-sleutels.
-4. Start de server met behulp van `npm run dev`.
-
-#### Gebruik
-1. Open de applicatie in uw webbrowser door naar het adres `http://localhost:<port>` te navigeren (standaardport is 3000).
-2. Blader door de beschikbare kanalen en selecteer het gewenste kanaal.
-3. Gebruik de afstandsbediening of knoppen op het scherm om door GIF's te bladeren of teletekstartikelen te lezen.
 
 
 #### Licentie
