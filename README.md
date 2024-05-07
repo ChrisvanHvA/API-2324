@@ -9,8 +9,8 @@
   
 ### Content
 
-  - [👋 Introductie 👋](##-Introductie-)
-  - [⚡️ Functies en installatie ⚡️](##-Functies-)
+  - [👋 Introductie 👋](#-Introductie-)
+  - [⚡️ Functies en installatie ⚡️](#-Functies-)
   - [📋 Opdracht 📋](##-Opdracht-)
   -  [✔️ Leerdoelen ✔️](#️##-Leerdoelen-️)
   - [✏️ Idee + schetsen ✏️](#️-Idee-️)
