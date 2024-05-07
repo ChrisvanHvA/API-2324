@@ -9,16 +9,15 @@
   
 ### Content
 
-  - [👋 Introductie 👋](#-debrief-)
-  - [⚡️ Functies en installatie ⚡️](#-prototype-v3-)
-  - [📋 Opdracht 📋](#-debrief-)
-  - [🤔 Idee 🤔](#️-personal-goals-️)
-  -  [✔️ Leerdoelen ✔️](#️-personal-goals-️)
-  - [✏️ Idee + schetsen ✏️](#️-wireframes-️)
-  - [📱 Werkprocess 📱](#-prototype-v3-)
-  - [📦 Final product 📦](#-final-thoughts-)
+  - [👋 Introductie 👋](##-Introductie-)
+  - [⚡️ Functies en installatie ⚡️](##-Functies-)
+  - [📋 Opdracht 📋](##-Opdracht-)
+  -  [✔️ Leerdoelen ✔️](#️##-Leerdoelen-️)
+  - [✏️ Idee + schetsen ✏️](#️-Idee-️)
+  - [📱 Werkprocess 📱](##-Werkproces-)
+  - [📦 Final product 📦](##-Final-)
  
-  - [📱reflectie 📱](#-prototype-v3-)
+  - [📱reflectie 📱](##-Reflectie-)
 
   <br>
   <hr>
@@ -30,7 +29,7 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
 
   <br>
 
-### Functies en installatie ⚡️
+## Functies en installatie ⚡️
 1. **Afstandsbediening:**
    - Gebruikers kunnen door verschillende kanalen "zappen" met behulp van een afstandsbediening (of door de geheime manier).
    - Met de afstandsbediening kan je switchen tussen tv en teletekst, maar je kan ook zelf nog prompts invullen.
@@ -125,7 +124,7 @@ Ook dit idee had uiteindelijk verloren tegen een idee die me toch leuker leek, W
 Uiteindeljik leek het leukste idee toch om een televisie te maken die je met een afstandsbediening kan besturen, zoals API calls en een kleine browsing functie.
 De eerste ideeen waren om er 3 API's in te stoppen die Gifs ophaalt, teletekst nieuwsartikelen laat zien en met de spotify API een soort dummy muziekspeler laat zien, uiteindelijk besloot ik de spotify API er uit te houden en mijn focus te zetten op het verbeteren van de user experience met de andere API's.
 
-## Werkprocess
+## Werkproces 📱
 Toen mijn idee vast stond op het maken van een internet televisie was ik nog eerst gaan rondsnuffelen voor passende API's.
 Uiteindelijk was de Giphy API het aantrekkelijkst. ik maakte een NodeJS applicatie met express templating en begon api calls te maken.
 <br>
@@ -143,7 +142,9 @@ Het eindproduct heeft nu de optie om teletekst te selecteren, te filteren tussen
 
 
 ## Reflectie
-Heb ik nie :(
+
+
+In mijn laatste codeerproject heb ik een nieuwe waardering ontwikkeld voor functies. Aanvankelijk vond ik ze wat intimiderend, maar al snel zag ik de voordelen ervan in. Functies maakten mijn code niet alleen overzichtelijker, maar ook herbruikbaarder. Het opdelen van taken in afzonderlijke functies gaf me een gevoel van controle en efficiëntie waar ik enthousiast van werd. Kortom, functies hebben mijn programmeerervaring een stuk soepeler gemaakt, en ik kan niet wachten om ze meer te gaan gebruiken in toekomstige projecten.
 
 #### Licentie
 Dit project wordt vrijgegeven onder de MIT-licentie. Zie het `LICENSE`-bestand voor meer informatie.
