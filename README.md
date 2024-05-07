@@ -24,7 +24,7 @@
   <hr>
   <br>
   
-## 👋 Introductie
+## Introductie 👋 
 
 Webvision is een app waarmee je een tv ervaring op het internet kan hebben! doormiddel van Gifjes en nieuwsartikelen verkleed als teletekst. Deze applicatie maakt gebruik van verschillende externe API's om een ​​interactieve televisie-ervaring te bieden.
 
@@ -69,7 +69,7 @@ Webvision is een app waarmee je een tv ervaring op het internet kan hebben! door
 
 
 <br>
-## 📋 Opdracht
+## Opdracht 📋
 
 ### inleiding
 In de komende vier weken zal ik voor de Minor Web design and Development een web app ontwikkelen die net zo aantrekkelijk is als een native mobiele app, hiervoor zal ik een server-side gerenderde applicatie moeten ontwikkelen die door de hulp van web API's een verbeterde gebruikerservaring moeten geven.
@@ -90,7 +90,7 @@ Voor mijzelf wil ik leren om:
   <br>
 
 
-### 📋 De opdracht
+### De opdracht 
 Het idee is om een van de meest voorkomende app concepten na te maken en de ervaring te verbeteren.
 een paar voorbeelden zijn:
 - Een doomscroll app.
@@ -98,7 +98,7 @@ een paar voorbeelden zijn:
 - Een chatapplicatie.
 Hiernaast heb je ook de mogelijkheid om je eigen app te verzinnen.
 
-## 🤔 Idee
+## Idee 🤔
 
 ### Brainstorming 
 Toen ik voor het eerst de opdracht hoorde, begreep ik het nog niet perfect, mijn plan was eigenlijk altijd al om een single page web app te maken. Mijn eerste ideeen kwamen neer op een miniatuurstadje waarvan alle gebouwen API's zijn die info fetchen of je een leuke activiteit laten doen, daarnaast had ik nog het idee om een Web televisie te maken waar je via API fetches bepaalde content op kan kijken.
